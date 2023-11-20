@@ -37,6 +37,7 @@ nav a {
     text-decoration: none; 
     color: #fff; 
     font-weight: bold;
+    padding: 0 10px;
 }
 
 nav a:hover {
@@ -75,6 +76,14 @@ input, select, textarea{
     text-decoration: none;
     border: none; 
     cursor: pointer; 
+}
+
+.btn-lang{
+    color: #fff;
+    border: none; 
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 10px;
 }
 
 textarea{

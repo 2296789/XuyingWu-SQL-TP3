@@ -20,6 +20,11 @@
             <li><a href="{{path}}login/logout">Logout</a></li>
             {% endif %}
             <a class = 'username'>{{ session.username }}</a>
+            {% if session.lang == fr %}
+            <a class="btn-lang">FR</a>
+            {% else %}
+            <a class="btn-lang">EN</a>
+            {% endif %}
         </ul>
     </nav>
  

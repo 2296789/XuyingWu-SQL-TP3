@@ -11,9 +11,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('PATH_DIR', 'http://localhost:8000/w/php2/XuyingWu-SQL-TP3/');
-//define('PATH_DIR', 'http://localhost:8888/php2/XuyingWu-SQL-TP3/');
-//define('PATH_DIR', 'https://e2296789.webdev.cmaisonneuve.qc.ca/XuyingWu-SQL-TP3/');
+//define('PATH_DIR', 'http://localhost:8000/w/php2/XuyingWu-SQL-TP3/');
+//define('PATH_DIR', 'http://localhost:8888/php2/TP3-3/');
+define('PATH_DIR', 'https://e2296789.webdev.cmaisonneuve.qc.ca/XuyingWu-SQL-TP3/');
 
 require_once('controller/Controller.php');
 require_once('library/RequirePage.php');

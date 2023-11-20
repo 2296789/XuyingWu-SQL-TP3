@@ -1,4 +1,14 @@
 <?php
+require_once('./library/EN.php');
+require_once('./library/FR.php');
+
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = 'EN'; 
+}
+
+//  if(($_SESSION['lang'] == 'FR')) require_once('FR.php');
+//  else require_once('EN.php');
+
 class ControllerHome extends Controller {
     public function index(){
         return Twig::render('home.php', [
